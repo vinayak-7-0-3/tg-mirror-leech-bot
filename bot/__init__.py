@@ -17,6 +17,7 @@ from pyrogram import Client, enums
 from asyncio import get_event_loop
 from megasdkrestclient import MegaSdkRestClient
 from megasdkrestclient import errors as mega_err
+
 main_loop = get_event_loop()
 
 faulthandler_enable()
