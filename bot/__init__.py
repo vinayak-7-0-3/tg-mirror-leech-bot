@@ -572,7 +572,6 @@ try:
     if len(CHANNEL_USERNAME) == 0:
         CHANNEL_USERNAME = 'AnimeDynastyEN'
 except KeyError:
-    logging.warning('CHANNEL_USERNAME not provided')
     CHANNEL_USERNAME = 'AnimeDynastyEN'
 
 try:
